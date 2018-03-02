@@ -1,0 +1,54 @@
+#container {
+  width: 850px;
+  height: auto;
+}
+
+#container h2 {
+  font-size: 200%;
+  margin-top: 50px;
+  text-align: center;
+}
+
+#sectionsSelector {
+  float: left;
+}
+
+#sections legend {
+  text-align: center;
+  font-weight: bold;
+}
+
+#sections table {
+  border-spacing: 8px;
+}
+
+#details {
+  float: right;
+  border-spacing: 10px;
+}
+
+#details th {
+  text-align: right;
+  vertical-align: top;
+}
+
+
+#reqFields {
+  margin-top: 340px;
+  position: relative;
+  bottom: 10px;
+  left: 10px;
+}
+
+#emailError {
+  color: red;
+  margin-left: 2px;
+}
+
+#sectionErr {
+  color: red;
+}
+
+#container p.successMsg {
+  text-align: center;
+}

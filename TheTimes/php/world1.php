@@ -1,0 +1,188 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" 
+   "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <title>The  Times</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <link rel="stylesheet" href="main.css" type="text/css">
+	<link rel="stylesheet" href="datepadding.css" type="text/css">
+    <link rel="stylesheet" href="article.css" type="text/css">
+    <link rel="stylesheet" href="world.css" type="text/css">
+  </head>
+  <body>
+    <p id = "topPara" ><span id="date"></span> <span id="login"><a href="login.html" class="loginlink">Login</a> &verbar; <a href="register.html" class="loginlink">Register</a></span> </p>
+    <script src="main.js"></script>
+    <script src="javascript/comment.js"></script>
+    <div id="header"><a href="main.html"><img src="images/header.jpg" style="height: 100px; width: 464px;"></a></div>
+    <div id="navBar">
+      <p><a href="main.html#topStories">Top Stories</a>&verbar;<a href="main.html#world">World</a>&verbar;
+         <a href="main.html#tech">Tech</a>&verbar;<a href="main.html#business">Business</a>&verbar;
+         <a href="main.html#travel">Travel</a>&verbar;<a href="election.html">2016 Election</a>
+      </p>
+    </div>
+    <div id="container"> 
+      <h1 class="title">Trump scores big win in Nevada</h1>
+      <p class="author">By Maeve Reston, The Times</p>
+      <p class="date"><img src="images/clock.jpg" class="clock">Uploaded 1905 GMT (0305 HKT) February 24, 2016</p>
+      <table id="nevadaResult">
+        <caption>Nevada caucus results</caption>
+        <tr>
+          <th>Candidate</th>
+          <th>Votes</th>
+          <th>Percent</th>
+          <th>Delegates</th>
+        </tr>
+        <tr>
+          <td>Trump (won)</td>
+          <td>34,531</td>
+          <td class="centerAlign">45.9%</td>
+          <td class="centerAlign">14</td>
+        </tr>
+        <tr class="evenRow">
+          <td>Rubio</td>
+          <td>17,940</td>
+          <td class="centerAlign">23.9%</td>
+          <td class="centerAlign">7</td>
+        </tr>
+        <tr>
+          <td>Cruz</td>
+          <td>16,079</td>
+          <td class="centerAlign">21.4%</td>
+          <td class="centerAlign">6</td>
+        </tr>
+        <tr class="evenRow">
+          <td>Carson</td>
+          <td>3,619</td>
+          <td class="centerAlign">4.8%</td>
+          <td class="centerAlign">2</td>
+        </tr>
+        <tr>
+          <td>Kasich</td>
+          <td>2,709</td>
+          <td class="centerAlign">3.6%</td>
+          <td class="centerAlign">1</td>
+        </tr>
+      </table>
+      <iframe width="750" height="422" src="https://www.youtube.com/embed/H-_lj7d4eS4" frameborder="0" allowfullscreen></iframe>
+      <p>
+        <span class="location">Las Vegas &#45; </span>Donald Trump notched a resounding win in the Nevada caucuses Tuesday, 
+        channeling the roiling anger of Republican voters against the establishment 
+        and sweeping almost every category of the electorate to build his dominance in the delegate count. 
+      </p>
+      <p>
+        It was a stunning show of momentum for his campaign, one that made it 
+        increasingly difficult to imagine a scenario where any other GOP candidate wins the Republican nomination.
+      </p>
+      <p>
+        "We love Nevada," Trump said during his brief victory speech 
+        at his party in Las Vegas late Tuesday night. "We will be celebrating for a long time tonight."
+      </p>
+      <p>
+        "We weren't expected to win too much and now we're winning, winning, winning the country," Trump said. 
+        "And soon the country is going to start winning, winning, winning."
+      </p>
+      <p>
+        He basked in his success across demographics.
+      </p>
+      <p>
+        "We won the evangelicals," he said. "We won with young. With won with old. We won with highly educated. 
+        We won with poorly educated. I love the poorly educated."
+      </p>
+      <p>
+        On Wednesday morning, he looked ahead to a Trump presidency, detailing the three things he'd do on Day 1 if he wins the White House.
+      </p>
+      <p>
+        "First thing is knock out some of the executive orders done by our president," Trump told George Stephanopoulos on ABC's "Good Morning America."
+      </p>
+      <p>
+        "One, on border where people can pour into (the) country like Swiss cheese. I would knock out Obamacare. 
+        Take care of our vets and military," the billionaire businessman said.
+      </p>
+      <h2>Narrow battle for second</h2>
+      <p>
+        Not only was it a win in the Silver State, but it was a win with a huge margin. With all of the expected vote in, 
+        Trump dominated the race with 45.9%. Marco Rubio and Ted Cruz featured in another tight battle for second, 
+        with Rubio claiming 23.9% of the vote and Cruz 21.4%.
+      </p>
+      <p>
+        The results in Nevada, a state where 30 delegates are at stake, demonstrated the power of Trump's appeal in this anti-establishment year. 
+        It also underscored his ability to use his media savvy and enormous popularity to 
+        sweep a state with complex caucus rules and where rivals were far more organized.
+      </p>
+      <p>
+        Trump increased his vote share over what he won in other primary states, outpacing second place finisher Marco Rubio by double digits, 
+        even though Rubio spent part of his childhood in Nevada.
+      </p>
+      <p>
+        Rubio, however, insisted Wednesday morning that "a majority of Republican voters in this country do not want Donald Trump to be the nominee."
+      </p>
+      <p>
+        Rubio attributed Trump's continued dominance of the GOP field to the fractured crowd of alternatives.
+      </p>
+      <p>
+        "Until there's some consolidation here, you're not going to have a clear alternative to Donald Trump," he said on Fox News' "Fox and Friends." 
+        "If we don't come together, we're never going to be able to provide a clear alternative to the direction that Donald Trump wants 
+        to take the Republican Party and the country."
+      </p>
+      <p>
+        One of the most surprising aspects of Trump's win was that entrance polls showed he was winning among Latino 
+        GOP caucus-goers even though he has campaigned on a hard-line immigration platform, including building a wall along the U.S.-Mexico border.
+      </p>
+      <p>
+        Entrance polls indicated Latino caucusgoers made up 8% of the GOP electorate and 45% of them planned to back Trump. 
+        Historically, however, entrance and exit polls have not proved to be a reliable measure when it comes to the preferences 
+        of minority voters, particularly when the sample size was as small as it was in Nevada.
+      </p>
+      <p>
+        Still, Trump noted his showing among Latino Republicans in his victory speech: "Number one with Hispanics... I'm really happy about that," he said.
+      </p>
+      <p>
+        Driving Trump's victory were caucusgoers who said they wanted a president from outside the political establishment. 
+        While Trump played up support among Latino GOP caucusgoers, the electorate was primarily white&ndash;accounting for 84% of those who turned out to caucus. 
+        Some 6 in 10 caucusgoers said they were angry about the way the government is functioning.
+      </p>
+      <div id="comments">
+		<?php include('php/initializeComments.php') ?>
+		<?
+		  $article = "world1";
+		  $sql = 'select count(*) as num from Comment where article="'.$article.'"';
+          $result = mysqli_query($conn, $sql);
+ 	  $row = mysqli_fetch_assoc($result);
+          echo '<p id="numComments" class="topBorderReq">' . $row["num"] . ' COMMENTS</p>';
+		?>
+        <div id="postComment">
+          <form id="commentForm" name="commentForm" onsubmit="return formValidate('world1')" action="http://localhost/TheTimes/php/insertComment.php" method="GET">
+            <p>
+              <textarea rows="5" cols="80" name="commentBox" onfocus="commentFocus()" onblur="commentBlur()" onkeyup="commentChange()" id="commentBox">Add your comment here</textarea>
+            </p>
+          </form>
+        </div>
+        <div id="errors"></div>
+       <?php include('php/timePassed.php') ?>
+       <?php
+          $sql = 'select * from Comment where article="'.$article.'" order by time desc';
+   	  $result = mysqli_query($conn, $sql);
+	  while($row = mysqli_fetch_assoc($result)) {
+	    echo '<h2 class="topBorderReq">' . $row["name"] . '</h2>';
+            echo '<p class="locTime">'.$row["city"].' - ';
+            timePassed($row["time"]);
+            echo ' ago</p><p>'.$row["commentText"].'</p>';
+	    echo '<a href="http://localhost/TheTimes/deleteComment.php?name='. $row["name"] . '&article=' . $row["article"] . '&city=' . $row["city"] . '&time=' . $row["time"] . '" class="button">Remove</a>';
+	  }
+         ?>	
+      </div>
+    </div>
+    <div id="footer" style="background: rgb(54,53,53); margin: 0px; margin-top: 10px; text-align: center; color: white;">
+        <p style="margin: 0px; font-size: 150%; border: thin solid gray;">FOLLOW US ON<br>
+          <a href="https://www.facebook.com/"><img src="images/facebook.jpg"></a>
+          <a href="https://twitter.com/"><img src="images/twitter.jpg"></a>
+          <a href="https://plus.google.com/"><img src="images/google.jpg"></a>
+        </p>
+        <p style="font-size: 90%; border: thin solid gray; margin: 0px;">&copy; 2016, The Times
+          <br>
+          All trademarks and registered trademarks appearing on 
+          this site are the property of their respective owners.
+        </p>
+    </div>
+  </body>
+</html>

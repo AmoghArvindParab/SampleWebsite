@@ -1,0 +1,23 @@
+#nevadaResult {
+  float: right;
+  border-collapse: collapse;
+  border: thin solid black;
+}
+
+#nevadaResult td,#nevadaResult th {
+  border: thin dotted black;
+  padding: 5px;
+}
+
+#nevadaResult th {
+  background-color: #c60;
+}
+
+.evenRow {
+  background-color: #fcba7a;
+}
+
+.centerAlign {
+  text-align: center;
+}
+

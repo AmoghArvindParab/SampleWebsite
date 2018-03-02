@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" 
+   "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+     <base target="_self">
+    <title>The  Times</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <link rel="stylesheet" href="main.css" type="text/css">
+     <style>
+	 #container1 {
+  width: 1000px;
+  height: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 45px; 
+  position: relative;
+}
+
+ 
+  .button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+     }
+	
+	.button1 {
+	width:750px;
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA;
+     }
+
+  .button1:hover {
+    background-color: #008CBA;
+    color: white;
+    }
+     
+     .button2 {
+	 position: absolute;
+	 left:120px;
+	 width:750px;
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+   }
+
+  .button2:hover {
+    background-color: #4CAF50;
+    color: white;
+    }
+	 
+</style>
+  </head>
+  <body>
+    <p id = "topPara" ><span id="date"></span> <span id="login"><a href="login.html" class="loginlink">Login</a> &verbar; <a href="register.html" class="loginlink">Register</a></span> </p>
+    <script src="main.js"></script>
+    <p id = "topPara" > </p>
+    <div id="header"><a href="main.html"><img src="images/header.jpg" style="height: 100px; width: 464px;"></a></div>
+    <div id="navBar">
+      <p><a href="#topStories">Top Stories</a>&verbar;<a href="#world">World</a>&verbar;
+         <a href="#tech">Tech</a>&verbar;<a href="#business">Business</a>&verbar;
+         <a href="#travel">Travel</a>&verbar;<a href="election.html">2016 Election</a>
+      </p>
+    </div>
+	
+   <div id="container1">
+	<form align="middle"  action="demo_form.asp">
+	<fieldset>
+    <legend align="middle"><h2>Create an Account:</h2></legend>
+    <b>Name: * </b> <input type="text" placeholder="Eg:Akshay Kamath" size="25" required autofocus><br><br>
+    <b>Email: * </b> <input type="email" placeholder="username@domain.com"size="25" required autofocus><br>
+	<!--p> Your legal name, used for any mails to be sent to you .</p--><br>
+	<b>Username: * </b>  <input type="email" placeholder="username@thetimes.com" size="25" required autofocus><br><br>
+	<b>Password: * </b> <input type="password" placeholder="Eg:X2@aPQ9"size="25" required autofocus><br><br>
+	<b> Country: * </b> <select name="country" form="registration"  required autofocus>
+	    <option value="None">--</option>
+        <option value="India">India</option>
+        <option value="USA">USA</option>
+        <option value="UK">UK</option>
+		<option value="France">France</option>
+		<option value="Canada">Canada</option>
+		<option value="Australia">Australia</option>
+		<option value="Pakistan">Pakistan</option>
+		<option value="Afghanistan">Afghanistan</option>
+		<option value="South Africa">South Africa</option>
+		<option value="Other">Other</option>
+       </select> <br><br> 
+    <b>Date of birth:</b>  <input type="date" name="bday" size="10">
+	<b> Gender: </b> <select name="gender" form="registration"  required autofocus><br>
+        <option value="None">--</option>
+		<option value="Male">Male</option>
+        <option value="Female">Female</option>
+        <option value="Other">Other/Prefer Not to Say</option>
+       </select><br>
+	      <p align="center"> <b>Tell us why you're interested in 'The Times'</b></p>
+       <textarea rows="4" cols="50" placeholder="Add your views/comment here..." maxlength="50" autofocus >
+          </textarea><br><br>
+		   <input type="checkbox" name="Agreement" ><b> I agree to the <a href=""> Terms of Service and Honor Code </a> of The Times. *</b><br><br>
+         <button class="button button1">Create your Account</button>
+		 <p id="reqFields">&#42; <b>Required fields</b></p>
+		 </fieldset>
+          </form> 
+           <p ><h2 align="center">Already have an account?</h2></p>
+		   <button class="button button2"  >Sign In</button>
+		   </div>
+	 
+	 
+	 <div id="footer" align="down"style="background: rgb(54,53,53); margin: 0px; text-align: center; color: white;">
+        <p style="margin: 0px; font-size: 150%; border: thin solid gray;">FOLLOW US ON<br>
+          <a href="https://www.facebook.com/"><img src="images/facebook.jpg"></a>
+          <a href="https://twitter.com/"><img src="images/twitter.jpg"></a>
+          <a href="https://plus.google.com/"><img src="images/google.jpg"></a>
+        </p>
+        <p style="font-size: 90%; border: thin solid gray; margin: 0px;">&copy; 2016, The Times
+          <br>
+          All trademarks and registered trademarks appearing on 
+          this site are the property of their respective owners.
+        </p>
+      </div>
+  </body>
+</html>

@@ -1,0 +1,85 @@
+#container {
+  height: auto;
+}
+
+#container h1.title {
+  font-size: 350%;
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+
+#container p {
+  font-size: 120%;
+}
+#container p.author {
+  color: #3333cc;
+  font-weight: bold;
+  margin: 3px;
+}
+
+#container p.date {
+  color: #555555;
+  font-size: 115%;
+  margin-top: 0px;
+}
+  
+img.clock {
+  padding-right: 5px;
+  position: relative;
+  top: 5px;
+}
+
+span.location {
+  font-weight: bold;
+}
+
+iframe {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.topBorderReq {
+  border-top: thin solid #BBBBBB;
+}
+
+#submitComment {
+  position: relative;
+  left: 680px;
+}
+
+#city {
+  margin-left: 20px;
+}
+
+form textarea {
+  font-size: 130%;
+  color: #777;
+}
+
+form input {
+  font-size: 105%;
+  margin-top: 15px;
+  color: #777;
+}
+
+#errors {
+  color: red;
+}
+
+#container #comments .locTime {
+  font-size: 105%;
+  color: #AAAAAA;
+}
+
+#comments {
+  width: 750px;
+}
+
+a.button {
+  margin-left: 685px;
+  background-color: #FFF;
+  border: none;
+  text-decoration: underline;
+  cursor: pointer;
+  color: red;
+}
